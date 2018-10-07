@@ -16,4 +16,8 @@ public class JSEngine
 //    		
 //    	}
     }
+
+    public static void onUpdate() {
+
+    }
 }
