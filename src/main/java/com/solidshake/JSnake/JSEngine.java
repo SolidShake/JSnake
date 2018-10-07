@@ -5,8 +5,9 @@ public class JSEngine
     JSEngine() {
     	
     }
-    
-    public static void start() {
+
+    public static void onCreate() {
+
     	Snake snake = new Snake();
     	GameField field = new GameField();
     	
@@ -17,7 +18,15 @@ public class JSEngine
 //    	}
     }
 
+    public static void onStart() {
+
+    }
+
     public static void onUpdate() {
+
+    }
+
+    public static void gameOver() {
 
     }
 }
