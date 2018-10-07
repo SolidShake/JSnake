@@ -45,8 +45,4 @@ public class JSEngine
     public static void gameOver() {
 
     }
-
-    public static void onUpdate() {
-
-    }
 }
