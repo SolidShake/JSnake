@@ -3,6 +3,7 @@ package com.solidshake.JSnake;
 public class JSEngine 
 {
     JSEngine() {
+<<<<<<< HEAD
     }
 
     private static boolean alive = true;
@@ -17,10 +18,14 @@ public class JSEngine
 
     public static void resurrectSnake() {
         alive = true;
+=======
+    	
+>>>>>>> refs/remotes/origin/master
     }
 
     public static void onCreate() {
 
+<<<<<<< HEAD
         Snake snake = new Snake();
         GameField field = new GameField();
 
@@ -44,9 +49,27 @@ public class JSEngine
 
     public static void gameOver() {
 
+=======
+    	Snake snake = new Snake();
+    	GameField field = new GameField();
+    	
+    	field.showSnake(snake);
+    	
+//    	while(true) {
+//    		
+//    	}
+>>>>>>> refs/remotes/origin/master
+    }
+
+    public static void onStart() {
+
     }
 
     public static void onUpdate() {
+
+    }
+
+    public static void gameOver() {
 
     }
 }
