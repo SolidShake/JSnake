@@ -6,9 +6,24 @@ import java.util.LinkedList;
 import javax.swing.JTextField;
 
 public class Snake {
+	
 	private int x;
 	private int y;
 	private LinkedList<JTextField> field = new LinkedList<JTextField>();
+	
+    private static boolean alive = true;
+
+    public static boolean isSnakeAlive() {
+        return alive;
+    }
+
+    public static void killSnake() {
+        alive = false;
+    }
+
+    public static void resurrectSnake() {
+        alive = true;
+    }
 	
 	Snake() {
 		this.x = 5;
